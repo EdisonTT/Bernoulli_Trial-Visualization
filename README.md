@@ -84,4 +84,6 @@ From the output, it can be concluded that when the number of the experiments inc
 Plot the probabilities and the number of counts on a graph sheet. Join those points with a smooth curve. There can see an amazing curve. This is called the Normal Distribution (Bell Curve).
 The python program `The_Curve.py` will help to get that curve. The result is given below.
 
+![abc](https://github.com/EdisonTT/Bernoulli_Trial-Visualization/blob/main/curve.png)
+
 **Note**: It is not mandatory to get the same output as mentioned above even the same code is used. But the values will be close to each other. It is because everything is random here. But the theoretical result will be the same. Also, the efficiency of the code is not good. As the number of experiments becomes a larger one, it takes more time to complete execution.
