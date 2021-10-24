@@ -2,12 +2,12 @@
 This is an effort to understand about Bernoulli Trial.
 
 ## Introduction
-Before going, recall what [Bernoulli Trail](https://en.wikipedia.org/wiki/Bernoulli_trial) is. The goal is to validate the concept with the help of [Python](https://www.python.org/about/). Here, with Python, a real-life situation is created to illustrate the Bernoulli Trial. The effort is to give a picture about the Bernoulli Trail, not to explain it mathematically! 
+Before going , let’s recall what [Bernoulli Trail](https://en.wikipedia.org/wiki/Bernoulli_trial) is. The goal is to validate the concept with the help of [Python](https://www.python.org/about/). Here, with Python, a real-life situation is created to illustrate the Bernoulli Trial. The effort is to give a picture about the Bernoulli Trail, not to explain it mathematically! 
 ## Scenario
-Consider a person tossing a coin. Ensure that the coin is [fair](https://en.wikipedia.org/wiki/Fair_coin). The probability of getting Head or Tail is `0.5`. For understanding, consider getting Head is a success.  Now imagine, ten people are tossing the coin simultaneously. We are interested in the number of heads obtained. There are `11` possible [outcomes](https://en.wikipedia.org/wiki/Outcome_(probability)). There is a chance to get zero Head or there is a chance to get ten Heads and so many. But the probability of these outcomes is not the same. The mathematician [Jacob Bernoulli](https://en.wikipedia.org/wiki/Jacob_Bernoulli) introduce a method to find probability. By using the definition of the Bernoulli Trail, the probability can be calculated. Most people are aware of it. So not diving into the deep.
+Consider a person tossing a coin. Ensure that the coin is [fair](https://en.wikipedia.org/wiki/Fair_coin). The probability of Heads or Tails is `0.5`. For better understanding, let us consider getting a Head as success.  Now imagine, ten people are tossing the coin simultaneously. We are interested in the number of heads obtained. There are `11` possible [outcomes](https://en.wikipedia.org/wiki/Outcome_(probability)). There is a chance to get zero Head or there is a chance to get ten Heads and so many. But the probability of these outcomes is not the same. The mathematician [Jacob Bernoulli](https://en.wikipedia.org/wiki/Jacob_Bernoulli) introduced a method to find probability. By using the definition of the Bernoulli Trail, the probability can be calculated. Most people are aware of it hence let’s not dive deep into it.
 
-## What we do here
-First, we will calculate the theoretical probability of each outcome. Then, will do the experiment too many times. Finally, compare the observed result with the theoretical result. Here the experiment is tossing a coin by ten people simultaneously. And then the number of Head/Tail is counted.
+## What are we doing here? 
+First, we will calculate the theoretical probability of each outcome. Then, we will repeat the experiment many times. Finally, we’ll compare the observed result with the theoretical result. Here the experiment is tossing a coin by ten people simultaneously. And then the number of Head/Tail is counted.
 
 ## The program Explained
 The main methods used in this python program, `Bernoulli_Trial.py` are:
@@ -78,7 +78,7 @@ probabilty of tail:
 ```
 ## Conclusion
 
-From the output, it can be concluded that when the number of the experiments increases, the observed probability move toward the theoretical probability. As the number of experiments approaches infinity, the observed and the theoretical probability will be the same. On the other hand, as the number of the experiment increases the probability for both Head and Tail comes closer to each other.
+From the output, it can be concluded that when the number of the experiments increases, the observed probability moves toward the theoretical probability. As the number of experiments approaches infinity, the observed and the theoretical probability will be the same. On the other hand, as the number of the experiment increases the probability for both Head and Tail comes closer to each other.
 
 ## Beofre Winding-up
 Plot the probabilities and the number of counts on a graph sheet. Join those points with a smooth curve. There can see an amazing curve. This is called the Normal Distribution (Bell Curve).
