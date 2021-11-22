@@ -80,7 +80,7 @@ probabilty of tail:
 
 From the output, it can be concluded that when the number of the experiments increases, the observed probability moves toward the theoretical probability. As the number of experiments approaches infinity, the observed and the theoretical probability will be the same. On the other hand, as the number of the experiment increases the probability for both Head and Tail comes closer to each other.
 
-## Beofre Winding-up
+## Before Winding-up
 Plot the probabilities and the number of counts on a graph sheet. Join those points with a smooth curve. There can see an amazing curve. This is called the Normal Distribution (Bell Curve).
 The python program `The_Curve.py` will help to get that curve. The result is given below.
 
